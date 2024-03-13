@@ -1,0 +1,98 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c3e50;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .custom-input {
+    margin-bottom: 30px;
+  }
+  
+  .custom-input h1 {
+    margin-bottom: 15px;
+    color: #f1c40f;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input-bar{
+    padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+  }
+
+  .input-bar:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+
+  .input-btn{
+    padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .input-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .custom-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #34495e; 
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  .checkbox {
+    margin-right: 15px;
+  }
+  .para {
+    margin: 0;
+    font-size: 22px;
+    color: #ecf0f1; 
+  }
+  
+  /* Styles for the paragraph when checked */
+  .parachecked {
+    margin: 0;
+    font-size: 22px;
+    color: #bdc3c7; /* Gray color */
+    text-decoration: line-through;
+  }
+  
+  /* Styles for the delete button */
+  .custom-cards button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles for the delete button on hover */
+  .custom-cards button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+  }
+  
